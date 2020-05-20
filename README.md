@@ -12,7 +12,20 @@ More information can be found in [this blog post](https://siim.me/blog/jwt-refre
 that I wrote on the topic.
 
 To get up and running, simply run ```yarn``` or ```npm install``` to install the
-all dependencies, followed by:
+all dependencies.
+
+Create a **.env** file and define the following environment variables:
+
+```text
+BASE_URL=http://localhost:3000
+JWT_EXPIRY=300
+JWT_SECRET=SuperSecretKeyForSigningTokens
+MIN_PASSWORD_LENGTH=10
+MONGO_URI=<Connection string for MongoDB>
+REFRESH_TOKEN_EXPIRY=604800
+```
+
+Finally, run:
 
 - ```yarn dev``` or ```npm run dev``` to run a development server.
 - ```yarn build && yarn start``` or ```npm run buid && npm run start``` to serve
