@@ -8,7 +8,7 @@ the following components:
 - A connection to a MongoDB database storing user accounts
 - React front-end
 
-More information can be found in [this blog post](https://siim.me/blog/jwt-refresh-token-next-apollo)
+More information can be found in [this blog post](https://siim.me/jwt-refresh-token-next-apollo)
 that I wrote on the topic.
 
 To get up and running, simply run ```yarn``` or ```npm install``` to install the
